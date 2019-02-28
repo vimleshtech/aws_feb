@@ -1,0 +1,89 @@
+Cloud Computing and Concepts
+==============================
+->Data, contents, informations, and other resource can be over the internet and can access from any where
+
+Advantages:
+=======================
+	->On demand avaibility 
+	->Less investment (initially)
+	->Less maintianance cost 
+	->Cloud will manage/keep the backup(so we don't need to take backup)
+	
+Cloud Service providers
+=================================
+AWS	   : Amazon web services ~37%
+MS Azure   : Microsoft Azure     ~17%
+Google Cloud 			 ~8%
+etc.
+
+Software and Application Services Types
+=======================================
+IaaS		: Infra as a services(Hardware,Virtual Machine(VM), Operating System, etc)
+PaaS		: Plateform as a services(.Net framework, Java/J2EE, NodeJS, Salesforce etc.) 	
+	
+SaaS		: Software as as services/ready to use (MS Office,Office365,Outlook) 
+
+
+Cloud Network Types
+=======================================
+Private Cloud		: Intranet - Within a organization/company place or LAN (within domain)
+Public Cloud		: Internet - Can be access from anywhere 
+Hybrid Cloud 		: Mix of above two - (Few resources can be access within organization and rest can be access from anywhere ie. called hybrid cloud)
+
+
+Setup New Account in AWS Console
+==========================================
+For free signup:
+	https://aws.amazon.com/free/
+
+		1. 750 hours  or 12 months  Free access
+			,charge will be applicable after above 
+		
+
+For login:
+	https://aws.amazon.com/console/
+
+
+===================================
+AWS Services
+===================================
+===================================
+
+EC2  : Elastic Cloud Compute 
+===============================
+Create new Instance (Virtual Machine)
+
+
+Steps:
+	Go to services (from top menu) ->  Compute -> EC2 -> 
+		Launch Instance(Create New Instance/Server/VM) ->
+		1. Select the AMI (Amazone Machine Image: OS Type)
+		2. Select Instance Type(CPU, RAM etc.)
+		3. Configure Instance details(no change - initially)
+		4. Add Storage (default is 30 GB for windows)
+		5. Add Tag (key and value)
+		6. Security Group (Allow the port and access)
+		7. Click on Review and Launch
+		8. Then click on Launch 
+		9. Create and download the public key (for security token)
+
+
+Connect to Instance
+==============================
+-Select the instance and click on connect 
+server:ec2-18-222-64-125.us-east-2.compute.amazonaws.com
+		or 18.222.64.125
+
+user:Administrator
+pwd: E)nTzT-pzTw
+
+
+
+-Go to run and type "mstsc"
+
+
+Confiture Webserver on Launched Instance
+======================================
+IIS  : internet information services
+
+
