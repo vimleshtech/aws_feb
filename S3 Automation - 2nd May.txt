@@ -1,0 +1,38 @@
+S3 : Automation
+================
+	S3 : Storage 
+		Step : create a bucket 
+		Step : create folder or upload files
+		Step : permission / security 
+
+
+	Python:
+		modules:
+			import os  (get list of files and folder from given path)
+			os.listdir("c:////")
+			
+
+	IAM Security Access:
+		
+
+	boto3
+		install boto3
+		cd pthon folder/scripts
+		pip install boto3
+		
+
+	Run S3 python Script from console:
+		cd path file directory
+		python filename.py
+
+	save above with .bat extension 
+
+		
+			
+		
+	
+
+EBS
+CloudWatch
+
+	
