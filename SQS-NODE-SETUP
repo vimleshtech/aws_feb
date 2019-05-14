@@ -1,0 +1,14 @@
+create folder/project and install required modules : 
+	mkdir projectname
+	cd projectname
+
+	npm init
+	npm install expressjs
+	npm install express
+	npm install aws-sdk
+
+create .js file
+	null test.js
+	
+	
+
